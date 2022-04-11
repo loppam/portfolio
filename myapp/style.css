@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: inherit;
+}
+span {
+    position: absolute;
+}
+li, a, button {
+    font-family: "Fira Code";
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+html{
+    background-color: #0a192f;
+}
+
+.top-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.menu-list-container{
+    list-style: none;
+}
+.menu-list-container li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: #64FFDA;
+}
+
+.menu-list-container li a {
+    transition: all 0.3s ease 0s;
+}
+.menu-list-container li a:hover {
+    color: #64ffda;
+    transition: all 0.3s ease-in 0s ;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: transparent;
+    border-style: double;
+    border-color: #64FFDA;
+    color: #64FFDA;
+    border-radius: 05px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+   background-color: #64FFDA;
+   color: #0a192f;
+}
+
+.menu-btnopen-side-nav {
+    visibility: hidden;
+}
+
+a.logo {
+    cursor: pointer;
+    border-style: double;
+    border-color: #64FFDA;
+    font-weight: 600;
+    font-size: 34px;
+    color: #0a192f;
+    background-color: #64FFDA;
+    border-radius: 5px 10px;
+    transition: all 1s ease 0s;
+}
+
+a.logo:hover {
+    background-color: #0a192f;
+    color: #64FFDA;
+    border-color: #64FFDA;
+}
+
+
+
+
+.anim {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: relative;
+    animation: myfirst 5s linear 2s infinite alternate;
+  }
+  
+  @keyframes myfirst {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:1100px; top:0px;}
+    50%  {background-color:blue; left:1100px; top:300px;}
+    75%  {background-color:green; left:0px; top:300px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+h4 {
+    color: #64FFDA;
+    font: 20px "Fira Code";
+    margin: 12px 0px 20px;
+}
+
+h1 {
+color: #CCDCF6;
+font: 64px "inter";
+}
+
+h2.top{
+    color: #8892B0;
+    margin: 10px 0px 0px;
+    font: 74px "inter";
+}
+p {
+    color: #8892B0;
+    font: 17px "inter";
+    margin: 20px 0px 0px;
+}
+
+.hero-body.aos-init.aos-animate {
+    padding: 95px 100px 0px;
+    text-align: left;
+    padding-bottom: 150px;
+}
+
+.btn-hero {
+    margin: 50px 0px 0px;
+}
+
+p.text {
+    border-left: 2px solid #CCDCF6;
+    writing-mode: vertical-lr;
+    position: absolute;
+    left: 90%;
+    margin-left: 50px;
+    top: 10;
+}
+
+.anim2 {
+    width: 10px;
+    height: 10px;
+    background-color: #64FFDA;
+    border-radius: 50px;
+    position: relative;
+    animation: myfirstt 3s linear 0.1s infinite alternate;
+  }
+  
+  @keyframes myfirstt {
+    0%   {background-color:#64FFDA; left:800px; top:0px;}
+    100% {background-color:#10a07f; left:800px; top:300px;}
+}
+
+
+h2{
+    font: 26px 'inter';
+    margin: 0px 20px 0px 2px;
+    color: #CCDCF6;
+}
+
+#body.about li{
+    padding: 95px 100px 150px;
+    list-style: none;
+    color: #64FFDA;
+    font: 50px 'Fira code';
+
+}
+
+span.h2{
+    font: 50px 'inter';
+    margin: 0px 20px 0px 2px;
+    color: #CCDCF6;
+}
+.about.text {
+    padding-top: 50px;
+    color: #8892B0;
+    font-size: 15px;
+    font-family: 'inter';
+}
+
+hr{
+    border-top: 1px solid #64FFDA;
+}
